@@ -598,12 +598,22 @@ strong {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+}
+
+.wrapper .button .btn {
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .wrapper .table-responsive {
     margin-top: 10px;
+}
+
+.wrapper .table-responsive thead tr th img {
+    display: block;
+    margin: 0 auto;
 }
 
 .wrapper .progress {
